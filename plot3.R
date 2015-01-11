@@ -37,7 +37,7 @@ png("plot3.png", width=480, height=480, bg="transparent")
 
 with(data, {
     plot(Sub_metering_1~Datetime, type="l", col="black",
-         xlab="", ylab="Global Active Power (kilowatts)")
+         xlab="", ylab="Energy sub metering")
     lines(Sub_metering_2~Datetime, col='Red')
     lines(Sub_metering_3~Datetime, col='Blue')})
 legend("topright",
